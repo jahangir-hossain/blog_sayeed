@@ -95,4 +95,7 @@ h1, h2, h3, h4. h5, h6 {
 	.col-15  { width: 93.75% }
 	.col-16  { width: 100%   }
 
+    .pull-left { float: left; }
+    .pull-right { float: right; }
+
 }

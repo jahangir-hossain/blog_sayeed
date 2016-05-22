@@ -1,8 +1,9 @@
-.contaienr {
-
-}
+p { font-size: .875em; color: #f9f9f9; }
 
 #wrap {
-    background-image: url(../images/bg-main.png) no-repeat 100% 100% fixed;
+    width: 100%;
+    min-height: 800px;
+    background: url(../images/bg-main.png) 100% 100% fixed;
     background-size: cover;
+
 }
