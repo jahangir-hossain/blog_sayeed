@@ -7,24 +7,67 @@
 		<title>Blog</title>
 		<link rel="stylesheet" href="./assets/css/grid.css"> <!-- Fot the responsive support -->
 		<link rel="stylesheet" href="./assets/css/style.css"> <!-- main style sheet file -->
-		<script src="./assets/js/mordenizr.min.js" type="text/javascript"></script> <!-- for cross browser issues fixing -->
+		<script src="./assets/js/mordernizr.min.js" type="text/javascript"></script> <!-- for cross browser issues fixing -->
 	</head>
 
 	<body>
-		
-		<div class="container">
-			<div class="row">
-				<article class="columns col-8">
-					<h3>This is a title</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ullam dolore tempora nam officia unde repellendus sequi culpa adipisci. Non quos, blanditiis fugiat sunt sequi nulla tempora nostrum porro similique.</p>
-				</article>
 
-				<article class="columns col-8">
-					<h3>This is a title</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ullam dolore tempora nam officia unde repellendus sequi culpa adipisci. Non quos, blanditiis fugiat sunt sequi nulla tempora nostrum porro similique.</p>
-				</article>
-			</div>
-		</div>
+		<div id="wrap">
+
+            <header class="container">
+                <div class="title">
+
+                </div> <!-- title -->
+
+                <nav class="sub-menu">
+                    <ul>
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Home</a></li>
+                    </ul>
+                </nav> <!-- sub-menu -->
+
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Page-1</a></li>
+                        <li><a href="#">Page-2</a></li>
+                        <li><a href="#">Page-3</a></li>
+                        <li><a href="#">Page-4</a></li>
+                        <li><a href="#">Page-5</a></li>
+                    </ul>
+                </nav> <!-- main-menu -->
+            </header> <!-- navigation container -->
+
+            <section class="container" id="main-content">
+                <main>
+                    <div class="post">
+                        <div class="img"></div>
+                        <div class="content">
+                            <h3>This is a post Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, facere alias voluptatem officia temporibus ullam labore magnam et optio porro, pariatur architecto necessitatibus fugit? Numquam quo accusamus enim, nemo officiis sint eveniet alias explicabo.</p>
+                        </div>
+                    </div> <!-- post -->
+                </main> <!-- post-section -->
+
+                <aside>
+                    <section class="side-content" id="featured">
+                        <h3>This is title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo impedit facere tempora omnis doloribus et accusantium, debitis optio quod dicta.</p>
+                    </section>
+
+                    <section class="side-content" id="recent">
+                        <h3>This is title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatum, ipsum mollitia libero distinctio suscipit nam et quia qui laudantium!</p>
+                    </section>
+                </aside> <!-- side-bar -->
+            </section> <!-- container-section -->
+
+            <footer class="container">
+                
+            </footer> <!-- footer-container -->
+
+		</div> <!-- body-wrap -->
 
 			<!-- /loging the jquery file -->
 		<script src="./assets/js/jquery.min.js" type="text/javascript"></script>
