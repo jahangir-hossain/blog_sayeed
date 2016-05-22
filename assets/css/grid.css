@@ -11,7 +11,7 @@
 }
 
 body {
-	font: 90%/1.5em OpenSans-regular, Helvetica, Arial, sans-serif, serif;
+	font: 90%/1.25em OpenSans-regular, Helvetica, Arial, sans-serif, serif;
 	color: #313131;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4. h5, h6 {
 	float: left;
 	padding: 0 0.75em;
 	margin-bottom: 1em;
-	background-color: tomato;
+	/*background-color: tomato;*/
 }
 
 .col-1,
