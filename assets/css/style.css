@@ -8,7 +8,7 @@ ul {
 
 img {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 #wrap {
@@ -133,6 +133,15 @@ main .post {
     padding: 1em;
 }
 
+.content a:link,
+.content a:visited {
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
 .content h3 {
     text-align: center;
     font-size: 120%;
@@ -147,7 +156,8 @@ main .post {
     padding-bottom: 1em;
 }
 
-.content a.more {
+.content a.more:link,
+.content a.more:visited {
     text-decoration: none;
     display: block;
     width: 90px;
@@ -254,6 +264,37 @@ nav.footer-menu li a {
 nav.footer-menu li a:hover {
     color: #03f7ff;
     text-decoration: underline;
+}
+
+/*
+Single Post Page Style
+*/
+div.detail-post img {
+    height: 250px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+div.detail-post-content {
+    padding: 1em;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1.50em;
+    border: 1px solid lightgray;
+    -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);;
+}
+
+div.detail-post-content h3 {
+    font-size: 200%;
+    font-weight: 200;
+    padding-top: 1em;
+}
+
+div.detail-post-content p {
+    font-size: 85%;
+    line-height: 1.65em;
+    padding: 1.35em 0;
 }
 
 /*==================================================
