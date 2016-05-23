@@ -1,5 +1,6 @@
 /* fonts file imported */
 @import url(../fonts/fonts.css);
+@import url(../fonts/fonts/font-awesome.min.css); /* font-awesome-icons */
 
 /* Grid css for responsive design */
 * {
