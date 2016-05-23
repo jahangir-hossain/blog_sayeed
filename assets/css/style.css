@@ -11,13 +11,16 @@ img {
     height: 50%;
 }
 
-#wrap {
+#wrap,
+#wrapper {
     width: 100%;
     min-height: 1200px;
     background: url(../images/bg-main.png) 100% 100% fixed;
     background-size: cover;
 
 }
+
+#wrapper { min-height: 700px; }
 
 /*
 * Site-Title
