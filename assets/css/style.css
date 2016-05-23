@@ -129,6 +129,10 @@ main .post {
     margin-bottom: 1.35em;
 }
 
+.post-img {
+    padding: 1em;
+}
+
 .content h3 {
     text-align: center;
     font-size: 120%;
@@ -204,6 +208,52 @@ footer.site-footer {
     height: 250px;
     margin-bottom: 0;
     background-color: #0c031f;
+}
+
+div.social {
+    padding-top: 4em;
+}
+
+a.social-icon {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1.25em;
+    -webkit-transition: color .5s;
+    -o-transition: color .5s;
+    transition: color .5s;
+}
+
+a#fb:hover { color: #1575a4; }
+a#gp:hover { color: #ec5142; }
+a#tt:hover { color: #6cc9f6; }
+a#yt:hover { color: #e04242; }
+
+p.copy { color: #f2af9f; font-size: 65%; }
+
+/*
+* Footer menu
+*/
+nav.footer-menu {
+    padding-top: 4em;
+}
+
+nav.footer-menu li {
+    float: left;
+    margin-left: 1em;
+}
+
+nav.footer-menu li a {
+    color: #b1daff;
+    text-decoration: none;
+    font-size: 85%;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+nav.footer-menu li a:hover {
+    color: #03f7ff;
+    text-decoration: underline;
 }
 
 /*==================================================
