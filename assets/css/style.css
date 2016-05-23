@@ -43,6 +43,13 @@ header .title {
     color: rgb(76, 139, 213);
 }
 
+.title h2 {
+    padding-top: 2.5em;
+    font-size: 75%;
+    font-weight: lighter;
+    color: #737373;
+}
+
 /*
 * Navigation system
 */
