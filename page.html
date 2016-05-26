@@ -16,13 +16,25 @@
 
             <header class="container">
                 <div class="row">
-                    <div class="title columns col-16 clearfix">
-                        <img src="./assets/images/logo-main.png" class="site-log" alt="Site-log">
-                        <h1>Devermate</h1>
-                        <h2>Knowledge Based Sustainable Development</h2>
-                    </div> <!-- title -->
+                    <div class="main_header columns col-16">
+                        <div class="row">
+                            <div class="section-logo columns col-4">
+                                <img src="./assets/images/logo-main.png" class="site-log" alt="Site-log">
+                            </div> <!--/ section-logo -->
+
+                            <div class="text-centered section-heading columns col-8">
+                                <h1>Devermate</h1>
+                                <h2>Knowledge Based Sustainable Development</h2>
+                            </div> <!--/ title-centered -->
+                        </div> <!--/ main_header.row -->
+                    </div> <!--/ main-header -->
 
                     <div class="row menu">
+                        <div class="search_bar columns col-5 pull-right">
+                            <input type="text" class="search_box" name="search">
+                            <input type="submit" class="search_submit" value="search">
+                        </div> <!--/ search_bar -->
+
                         <nav class="sub-menu columns col-16">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
@@ -30,7 +42,7 @@
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="index.html">Home</a></li>
                             </ul>
-                        </nav> <!-- sub-menu -->
+                        </nav> <!--/ sub-menu -->
 
                         <nav class="main-menu columns col-16">
                             <ul>
@@ -40,7 +52,7 @@
                                 <li><a href="page.html">Page-4</a></li>
                                 <li><a href="page.html">Page-5</a></li>
                             </ul>
-                        </nav> <!-- main-menu -->
+                        </nav> <!--/ main-menu -->
                     </div>
                 </div>
             </header> <!-- navigation container -->
@@ -52,15 +64,29 @@
                     </main> <!-- post-section -->
 
                     <aside class="sidebar columns col-6">
+                        <section class="side-content" id="about">
+                            <h3>About US</h3>
+                            <p class="text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo impedit facere tempora omnis doloribus et accusantium, debitis optio quod dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum beatae distinctio pariatur, neque veritatis harum itaque provident nisi optio illum ut modi officiis tempore est, nam quia. Vero, quis, suscipit.</p>
+                        </section> <!--/ section-about -->
+
                         <section class="side-content" id="featured">
-                            <h3>This is title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo impedit facere tempora omnis doloribus et accusantium, debitis optio quod dicta.</p>
-                        </section>
+                            <h3>Featured Post</h3>
+
+                            <ul class="featured-post-title">
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, repellat.</a></li>
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit.</a></li>
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, hic?</a></li>
+                            </ul> <!--/ featured-post-title -->
+                        </section> <!--/ section-featured -->
 
                         <section class="side-content" id="recent">
-                            <h3>This is title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatum, ipsum mollitia libero distinctio suscipit nam et quia qui laudantium!</p>
-                        </section>
+                            <h3>Recent Post</h3>
+                            <ul class="featured-post-title">
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, repellat.</a></li>
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit.</a></li>
+                                <li><a href="single-post.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, hic?</a></li>
+                            </ul> <!--/ featured-post-title -->
+                        </section> <!--/ section-recent -->
                     </aside> <!-- side-bar -->
                 </div> <!-- /row -->
             </section> <!-- container-section -->

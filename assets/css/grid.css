@@ -66,6 +66,8 @@ h1, h2, h3, h4. h5, h6 {
 .col-15,
 .col-16 { width: 100% }
 
+/* some extra style */
+.text-centered { text-align: center !important; }
 
 /* style for tab & desktop */
 @media only screen and (min-width: 468px) {
