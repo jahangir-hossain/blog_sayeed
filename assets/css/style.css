@@ -27,6 +27,10 @@ img {
 
 header .main_header {
     margin-top: 1.5em;
+    background-color: aliceblue;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
 }
 .section-logo img {
     width: 140px;
